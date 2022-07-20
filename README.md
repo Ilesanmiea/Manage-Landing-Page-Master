@@ -89,7 +89,7 @@ I will love to develop my JavaScript skills and being able to develop myself tha
 
 - Website - [Ilesanmi Emmanuel](https://ilesanmiea.hashnode.dev)
 - Frontend Mentor - [@ilesanmiea](https://www.frontendmentor.io/profile/ilesanmiea)
-- Instagram - [@ilesanmi_ea](https://www.twitter.com/ilesanmi_ea)
+- Instagram - [@ilesanmi_ea](https://www.instagram.com/ilesanmi_ea)
 
 
 
