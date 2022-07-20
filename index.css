@@ -1,0 +1,487 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+@font-face{
+    font-family: BeVietnamemedium;
+    src: url(../manage-landing-page-master/fonts/BeVietnamPro-Medium.ttf);
+    
+}
+@font-face {
+    font-family: BeVietnameLight;
+    src: url(../manage-landing-page-master/fonts/BeVietnamPro-Light.ttf);
+    font-weight: 500;
+}
+@font-face {
+    font-family: BeVietnameBold;
+    src: url(../manage-landing-page-master/fonts/BeVietnamPro-Bold.ttf);
+    
+}
+html{
+    background-image:url(../manage-landing-page-master/images/bg-tablet-pattern.svg);
+    background-repeat: no-repeat;
+    background-position: bottom 45% left -350px;
+    background-size: 50%;
+    font-family: rocko;
+}
+
+body{
+    padding: 4vw;
+    background-image: url(../manage-landing-page-master/images/bg-tablet-pattern.svg);
+    background-repeat: no-repeat;
+    background-size: 60%;
+    background-position:top -100px right -190px;
+    color:rgb(36, 45, 82) !important;
+}
+
+header .col{
+    display: flex;
+    justify-content: space-between;
+    font-size: 18px;
+    font-family: BeVietnamemedium;
+    cursor: pointer;
+        
+}
+header .col img{
+    max-width: 100%;
+}
+header .col nav a{
+    text-decoration: none;
+    color:inherit;
+    margin-right: 20px;
+}
+header .col nav a:hover{
+    opacity: 0.5;
+}
+#hamburger{
+    display: none;
+}
+.gen-btn{
+    background-color: rgb(242, 95, 58);
+    color:white;
+    border: none;
+    border-radius: 3em;
+    padding: 1em;
+    width:120px;
+    height:auto;
+    font-family:BeVietnamemedium;
+    cursor: pointer;
+}
+.gen-btn:hover{
+    box-shadow: 1px 2px 2px 0px rgb(214, 83, 51) ;
+
+}
+#bgc-img{
+    position: relative;
+    z-index: -11;
+    float: right;
+    top:-250px;
+    max-width:50%;
+    height:auto;
+    left:210px;
+}
+.col-1{
+display: flex;
+margin-top: 100px;
+align-items: center;
+}
+#illustration-img{
+    float: right;
+    position: relative;
+    
+}
+#closeIcon{
+    display: none;
+}
+
+.row-1 h1{
+    font-size: 3em;
+    font-family: BeVietnameBold;
+}
+.row-1 h1 + p{
+    font-size: 1.25em;
+    color:grey;
+    margin-top: 20px;
+    font-family: BeVietnameLight;
+}
+
+section .col-2{
+    display: flex;
+   
+}
+.row-2{
+    /* flex: 50%; */
+    margin-right: 100px;
+    font-family: BeVietnameBold;
+}
+.row-2 h2{
+    font-size: 2em;
+    font-weight: 900;
+}
+.row-2 p,.row-2-2 p{
+    margin-top: 18px;
+    opacity: 0.5;
+    font-family: BeVietnameLight;
+
+
+}
+.row-2-2{
+    display:inline;
+    font-family: BeVietnameBold;
+    
+}
+.btns{
+   display:block;
+   float: left;
+   margin-right: 30px ;
+   cursor: pointer;
+   position: relative;
+   bottom: -15px;
+}
+.btns button{
+    border: none;
+    border-radius: 3em;
+    color: white;
+    background-color:rgb(242, 95, 58);
+    padding:10px;
+    text-align: center;
+    width:50px;
+}
+span > b{
+    font-weight: 900;
+    
+}
+.btns-content{
+    margin-left: 30px;
+    text-align: left;
+    display: inline;
+    padding-left: 60px;
+}
+.col-4{
+    display: block;
+margin-top:100px;
+
+}
+.col-4  h3{
+    text-align: center;
+    font-size: 25px;
+    font-family: BeVietnameBold;
+    margin-bottom: 80px;
+
+}
+.testimonial{
+    display: flex;
+}
+.testy{
+    width:100%;
+    background-color:rgb(250, 250, 250);
+    margin-right: 20px;
+    height:auto;
+    text-align: center;
+    padding:20px;
+    font-family: BeVietnameBold;
+    
+}
+.testy h4, .testy p{
+margin-top: 10px;
+}
+.testy  p{
+    opacity: 0.5;
+    font-family: BeVietnameLight;
+}
+.testy-btn{
+text-align: center;
+display: flex;
+justify-content: center;
+margin-top: 100px;
+}
+.testy-img{
+    position: relative;
+    width:20%;
+    z-index: 11;
+    bottom: 2.7em;
+    
+}
+.col-5{
+    width:100%;
+    height:auto;
+    background-color:hsl(12, 88%, 59%);
+    font-family:BeVietnameBold;
+    margin-top: 100px;
+    color:#fff;
+    padding:70px ;
+    font-size: 2em;
+    display: flex;
+    justify-content: space-between;
+}
+.last-btn{
+    background-color: #fff;
+    color:rgb(242, 95, 58);
+}
+
+footer .foot{
+    display: flex; 
+    flex-direction: row;
+    background-color:rgb(29, 30, 37);
+    height: 10em;
+    width:100%;
+    justify-content: space-around;
+    padding:10px 20px;
+    font-family: BeVietnameLight;
+    cursor: pointer;
+}
+.foot-img{
+    color: white;
+}
+.foot-row{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.two a,.three a{
+text-decoration: none;
+color:white;
+}
+.two a:hover{
+    color:rgb(242, 95, 58)
+}
+.three a:hover{
+    color:rgb(242, 95, 58)
+}
+.foot-row-4{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.icon:hover{
+    background-color: rgb(242, 95, 58);
+}
+input[type=email]{
+    padding:12px;
+    border:none;
+    border-radius: 12px;
+}
+input[type=submit]{
+    padding:10px;
+    color:white;
+    background-color: rgb(242, 95, 58);
+    border:none;
+    border-radius: 3em;
+}
+.align{
+    margin-left: 20px;
+}
+.one >p{
+    display: none;
+}
+#foot-rows{
+    display: flex;
+    
+    
+ }
+ .two {
+    margin-right:40px;
+   }
+   .nav-color{
+    display:none;
+   }
+  
+@media (max-width:870px) {
+html{
+    background-size: 60%;
+    background-position: top 20% right -140px;
+}
+body{
+    background-position:top -70px right -30px;
+    background-size: 75%;
+}
+   
+    header .col nav{
+        width:80%;
+        height:500px;
+        display: none;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color:  hsl(0, 0%, 98%);
+        position: absolute;
+        color:rgb(12, 12, 12);
+        z-index: 10000;
+        margin: 10px 0px;
+        text-align: center;
+        padding: 0px 0px;
+        border-radius: 40px ;
+        animation: myNav 0.5s;
+        transform: translateX(10%);
+        
+    }
+   
+    @keyframes myNav {
+        from{
+            transform: scale(0);
+        }
+        to{
+            transform: scale(1);
+        } 
+    }
+    header .col nav a{
+        margin-top: 10px;
+    }
+    #nav-btn{
+        display: none;
+    }
+    #hamburger{
+        display: flex;   
+    }
+    #closeIcon{
+    display:block;
+    position: absolute;
+    top:-3%;
+    right:-3%;
+    animation-name: close-btn;
+    animation-duration: .5s;
+    }
+
+    @keyframes close-btn {
+        from{
+            transform:scale(1)
+        }
+        to{
+            transform:scale (0);
+        }
+    }
+    .col-1{
+        flex-direction: column-reverse;
+        align-items: center;
+        text-align: center;
+    }
+    #illustration-img{
+        max-width: 90%;
+    }
+    .row-1 h1{
+        font-size: 2.5em;
+    }
+    .row-1 h1 + p{
+        font-size: 1em;
+    }
+    section .col-2{
+        flex-direction: column;
+        margin-top: 120px;
+    }
+    .row-2{
+        text-align: center;
+        margin-right: 0;
+    }
+    .row-2-2 h4{
+        background-color: hsl(13, 100%, 96%);
+        width:100%;
+        height:2em ;
+        position: relative;
+        z-index: -111;
+        text-align: left;
+    }
+    .testimonial{
+        flex-direction: column;
+    }
+   .col-5{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   }
+   footer .foot{
+    flex-direction: column-reverse;
+    height: 40em;
+    justify-content: space-evenly;
+    padding:30px;
+    align-items: center;
+   }
+   .foot-row,.foot-row-4{
+    margin-top: 30px;
+   }
+   .one{
+    flex-direction: column-reverse;
+    align-items: center;
+    /* justify-content: space-between; */
+   }
+   .two{
+    margin-right:30px;
+   }
+   .two a{
+    margin-top:5px;
+   }
+   svg{
+    margin-top: 20px;
+    justify-content: center;
+   }
+  .icons{
+    margin-right: 18px;
+  }
+  input[type=submit]{
+    margin-top: 20px;
+  }
+
+  span p{
+    display: none;
+  }
+ .one >p{
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+ }
+ #foot-rows{
+    display: flex;
+    
+ }
+ .mySlides{
+    display: none;
+ }
+ .slideshow-container{
+    max-width:100%;
+    position: relative;
+    margin:auto;
+ }
+ .dot{
+    display:inline-block;
+    height:15px;
+    width: 15px;
+    border-radius: 50%;
+    background-color: #fff;
+    border: 2px solid rgb(242, 95, 58);
+    transition: background-color 0.6s ease; 
+}
+.active {
+    background-color: rgb(242, 95, 58);
+  }
+  .fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  @-webkit-keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+  }
+  
+  @keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+  }
+}
+@media (max-width:400px) {
+    html{
+        background-size: 90%;
+        background-position: top 20% right -80px;
+    }
+    body{
+        background-position:top -25px right -60px;
+        background-size: 100%;
+    }
+    .row-2-2 h4{
+        height:3em;
+        text-align: center;
+        margin: 0;
+    }
+   
+}
