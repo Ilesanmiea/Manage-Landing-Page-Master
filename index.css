@@ -379,7 +379,7 @@ body{
 /*     height:2em ; */
         position: relative;
         z-index: -111;
-        text-align: left;
+        text-align: center;
         padding: 2em;
         vertical-align:middle;
     }
