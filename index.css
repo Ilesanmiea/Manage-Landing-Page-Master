@@ -487,3 +487,7 @@ body{
     }
    
 }
+@media (max-width:400px){
+.row-2-2 h4{
+    padding: 2.2em;}
+}
