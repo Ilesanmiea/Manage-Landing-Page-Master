@@ -379,8 +379,8 @@ body{
 /*         height:2em ; */
         position: relative;
         z-index: -111;
-        text-align: left;
-        padding: 2em;
+        text-align: center;
+        padding: 1.5em;
     }
     .testimonial{
         flex-direction: column;
