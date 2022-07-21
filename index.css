@@ -5,21 +5,21 @@
 }
 @font-face{
     font-family: BeVietnamemedium;
-    src: url(../manage-landing-page-master/fonts/BeVietnamPro-Medium.ttf);
+    src: url('fonts/BeVietnamPro-Medium.ttf');
     
 }
 @font-face {
     font-family: BeVietnameLight;
-    src: url(../manage-landing-page-master/fonts/BeVietnamPro-Light.ttf);
+    src: url('fonts/BeVietnamPro-Light.ttf');
     font-weight: 500;
 }
 @font-face {
     font-family: BeVietnameBold;
-    src: url(../manage-landing-page-master/fonts/BeVietnamPro-Bold.ttf);
+    src: url('fonts/BeVietnamPro-Bold.ttf');
     
 }
 html{
-    background-image:url(../manage-landing-page-master/images/bg-tablet-pattern.svg);
+    background-image:url('images/bg-tablet-pattern.svg');
     background-repeat: no-repeat;
     background-position: bottom 45% left -350px;
     background-size: 50%;
@@ -28,7 +28,7 @@ html{
 
 body{
     padding: 4vw;
-    background-image: url(../manage-landing-page-master/images/bg-tablet-pattern.svg);
+    background-image: url('images/bg-tablet-pattern.svg');
     background-repeat: no-repeat;
     background-size: 60%;
     background-position:top -100px right -190px;
