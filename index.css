@@ -381,6 +381,7 @@ body{
         z-index: -111;
         text-align: center;
         padding: 2em;
+        vertical-align:middle;
     }
     .testimonial{
         flex-direction: column;
