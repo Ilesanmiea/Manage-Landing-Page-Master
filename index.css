@@ -380,7 +380,7 @@ body{
         position: relative;
         z-index: -111;
         text-align: center;
-        padding: 1em;
+        padding: 1.89em;
     }
     .testimonial{
         flex-direction: column;
